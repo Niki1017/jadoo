@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.decore{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+.logo{
+    padding: 15px;
+    height: 60px;
+
+}
+header{
+    background: aqua;
+    height: 60px;
+}
+header ul{
+    list-style: none;
+    float: right;
+    font-size: 0;
+}
+header ul li{
+    display: inline-block;
+    background: red;
+}
+header ul li a{
+    float: right;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000;
+    top: 13px;
+}
+.signup{
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+}
+.traveller{
+    position: absolute;
+    bottom: 30px;
+    right: 160px;
+}
+
+.global-info h2,
+.information-four h1,
+.easy-text,
+.global-info img,
+.information-five p,
+.information-five h1,
+.cta,
+.global-info p{
+    margin-left: 120px;
+}
+.global-info h2{
+    width: 40%;
+    margin-top: 120px;
+    color: #DF6951;
+    font-weight: 700;
+
+}
+.global-info img{
+    margin-top: 25px;
+}
+.global-info p{
+    font-weight: 500;
+    margin-top: 30px;
+    color: #5E6282;
+}
+.cta{
+    margin-top: 30px;
+    display: inline-block;
+}
+.cta-link{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    background: #F1A501;
+    border-radius: 10px;
+}
+.cta img{
+    width: 50px;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+.play-demo{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #686D77;
+    padding-top: 15px;
+}
+.information-two{
+    margin-top: 90px;
+    text-align: center;
+}
+.decore-group{
+    position: absolute;
+    right: 0;
+}
+.information-two{
+    margin-bottom: 30px;
+}
+.information-two h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #5E6282;
+}
+.card h3{
+    color: #14183E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+    /* background: red; */
+    text-align: center;
+}
+.information-three{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.information-three h3{
+    color: #5E6282;
+}
+.information-three h1{
+    color: #14183E;
+}
+.info-three-card{
+    display: inline-block;
+    background: #fff;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 0px 0px 24px 24px;
+    
+}
+.imgBx img{
+    border-radius: 15px 15px 0px 0px;
+}
+.content{
+    margin-bottom: 40px;
+
+}
+.gorod{
+    float: left;
+    margin: 5px;
+    margin-left: 20px;
+}
+.sell{
+    float: right;
+    margin: 5px;
+    margin-right: 20px;
+}
+.days{
+    float: left;
+    margin-left: 20px;
+}
+.days img{
+    margin-bottom: -5px;
+    
+}
+.decore-card{
+    margin-left: -50px;
+}
+.information-four{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.information-four h1{
+    color: #14183E;
+    margin-bottom: 60px;
+}
+.easy-text{
+    margin-bottom: 10px;
+}
+.cards{
+    width: 500px;
+}
+.cards h1{
+    position: absolute;
+    left: 0;
+    color: #5E6282;
+}
+.cards p{
+    color: #5E6282;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.cards .content{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+.cards img{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.cards .content h1{
+    float: left;
+}
+.information-five{
+    background: aqua;
+    height: 600px;
+}
+.information-five p{
+    color: #5E6282;
+    margin-bottom: 30px;
+}
