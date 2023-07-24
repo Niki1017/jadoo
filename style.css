@@ -1,32 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.decore{
+
+.decore {
     position: absolute;
     right: 0px;
     z-index: -1;
 }
-.logo{
+
+.logo {
     padding: 15px;
     height: 60px;
 
 }
-header{
+
+header {
     background: aqua;
     height: 60px;
 }
-header ul{
+
+header ul {
     list-style: none;
     float: right;
     font-size: 0;
 }
-header ul li{
+
+header ul li {
     display: inline-block;
     background: red;
 }
-header ul li a{
+
+header ul li a {
     float: right;
     padding: 0 15px;
     font-size: 16px;
@@ -35,12 +41,14 @@ header ul li a{
     color: #000;
     top: 13px;
 }
-.signup{
+
+.signup {
     border: 1px solid #000;
     padding: 5px;
     border-radius: 5px;
 }
-.traveller{
+
+.traveller {
     position: absolute;
     bottom: 30px;
     right: 160px;
@@ -53,88 +61,105 @@ header ul li a{
 .information-five p,
 .information-five h1,
 .cta,
-.global-info p{
+.global-info p {
     margin-left: 120px;
 }
-.global-info h2{
+
+.global-info h2 {
     width: 40%;
     margin-top: 120px;
     color: #DF6951;
     font-weight: 700;
 
 }
-.global-info img{
+
+.global-info img {
     margin-top: 25px;
 }
-.global-info p{
+
+.global-info p {
     font-weight: 500;
     margin-top: 30px;
     color: #5E6282;
 }
-.cta{
+
+.cta {
     margin-top: 30px;
     display: inline-block;
 }
-.cta-link{
+
+.cta-link {
     text-decoration: none;
     color: #fff;
     padding: 15px;
     background: #F1A501;
     border-radius: 10px;
 }
-.cta img{
+
+.cta img {
     width: 50px;
     margin-bottom: 30px;
     vertical-align: middle;
 }
-.play-demo{
+
+.play-demo {
     text-decoration: none;
     margin-left: 15px;
     color: #686D77;
     padding-top: 15px;
 }
-.information-two{
+
+.information-two {
     margin-top: 90px;
     text-align: center;
 }
-.decore-group{
+
+.decore-group {
     position: absolute;
     right: 0;
 }
-.information-two{
+
+.information-two {
     margin-bottom: 30px;
 }
-.information-two h2{
+
+.information-two h2 {
     text-align: center;
     margin-bottom: 30px;
     color: #5E6282;
 }
-.card h3{
+
+.card h3 {
     color: #14183E;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
 }
-.card{
+
+.card {
     display: inline-block;
     margin-left: 60px;
     margin-right: 60px;
     /* background: red; */
     text-align: center;
 }
-.information-three{
+
+.information-three {
     margin-top: 90px;
     margin-bottom: 30px;
     text-align: center;
 
 }
-.information-three h3{
+
+.information-three h3 {
     color: #5E6282;
 }
-.information-three h1{
+
+.information-three h1 {
     color: #14183E;
 }
-.info-three-card{
+
+.info-three-card {
     display: inline-block;
     background: #fff;
     margin-top: 25px;
@@ -142,78 +167,182 @@ header ul li a{
     margin-left: 15px;
     margin-right: 15px;
     border-radius: 0px 0px 24px 24px;
-    
+
 }
-.imgBx img{
+
+.imgBx img {
     border-radius: 15px 15px 0px 0px;
 }
-.content{
+
+.content {
     margin-bottom: 40px;
 
 }
-.gorod{
+
+.gorod {
     float: left;
     margin: 5px;
     margin-left: 20px;
 }
-.sell{
+
+.sell {
     float: right;
     margin: 5px;
     margin-right: 20px;
 }
-.days{
+
+.days {
     float: left;
     margin-left: 20px;
 }
-.days img{
+
+.days img {
     margin-bottom: -5px;
-    
+
 }
-.decore-card{
+
+.decore-card {
     margin-left: -50px;
 }
-.information-four{
+
+.information-four {
     margin-top: 60px;
     margin-bottom: 60px;
 }
-.information-four h1{
+
+.information-four h1 {
     color: #14183E;
     margin-bottom: 60px;
 }
-.easy-text{
+
+.easy-text {
     margin-bottom: 10px;
 }
-.cards{
+
+.cards {
     width: 500px;
+    display: inline-block;
 }
-.cards h1{
+
+.cards h1 {
     position: absolute;
     left: 0;
     color: #5E6282;
 }
-.cards p{
+
+.cards p {
     color: #5E6282;
     padding-top: 40px;
     padding-left: 15px;
 }
-.cards .content{
+
+.cards .content {
     display: inline-block;
     vertical-align: middle;
     padding-top: 40px;
 }
-.cards img{
+
+.cards img {
     display: inline-block;
     vertical-align: middle;
 
 }
-.cards .content h1{
+
+.cards .content h1 {
     float: left;
 }
-.information-five{
+
+.information-five {
     background: aqua;
     height: 600px;
 }
-.information-five p{
+
+.information-five p {
     color: #5E6282;
     margin-bottom: 30px;
+}
+
+.card-info {
+    position: relative;
+    float: right;
+    margin-right: 160px;
+    width: 370px;
+    padding: 25px;
+    font-size: 0;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)
+}
+
+.nav{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.card-info h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    /* margin-left: 40px; */
+}
+
+.info-card-jule {
+    font-size: 16px;
+    /* margin-left: 40px; */
+    margin-top: 10px;
+    color: #84829A;
+}
+
+.builder {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    width: calc(100% - 20px);
+}
+
+.building {
+    vertical-align: middle;
+}
+
+.heart {
+    vertical-align: middle;
+}
+
+.mini-card {
+    position: absolute;
+    width: 260px;
+    bottom: 60px;
+    right: -80px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)
+}
+
+.mini-card h3 {
+    font-size: 14px;
+}
+
+.moscow{
+    vertical-align: top;
+}
+
+.ongoin {
+    font-size: 12px;
+}
+
+.completed {
+    font-size: 14px;
+}
+
+.poloska{
+    margin-top: 5px;
+    width: 100%;
+}
+.mini-card-info{
+    vertical-align: top;
+    padding-left: 20px;
+    height: 60px;
+    display: inline-block;
+    width: calc(100% - 50px);
 }
