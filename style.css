@@ -17,7 +17,7 @@
 }
 
 header {
-    background: aqua;
+    /* background: aqua; */
     height: 60px;
 }
 
@@ -28,13 +28,16 @@ header ul {
 }
 
 header ul li {
+    vertical-align: top;
     display: inline-block;
-    background: red;
+    /* background: red; */
 }
 
 header ul li a {
-    float: right;
-    padding: 0 15px;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    /* padding: 0 15px; */
     font-size: 16px;
     line-height: 60px;
     text-decoration: none;
@@ -42,10 +45,57 @@ header ul li a {
     top: 13px;
 }
 
+.container{
+    font-size: 0;
+    margin: auto;
+    width: 90%;
+}
+
 .signup {
     border: 1px solid #000;
-    padding: 5px;
+    line-height: 40px;
     border-radius: 5px;
+    margin-top: 10px;
+}
+
+.vector-down{
+    vertical-align: middle;
+}
+
+.language:hover .vector-down{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+nav{
+    background: #fff;
+    width: 120px;
+    opacity: 0;
+    transition: .5s;
+    pointer-events: none;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.078);
+}
+
+.smena-language:hover nav{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.lang{
+    /* border: 1px solid #000; */
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    width: 120px;
+    opacity: 1;
+}
+
+.lang:hover{
+    background: #000;
+    color: #fff;
+    overflow: hidden;
 }
 
 .traveller {
@@ -253,7 +303,7 @@ header ul li a {
 }
 
 .information-five {
-    background: aqua;
+    /* background: aqua; */
     height: 600px;
 }
 
@@ -323,7 +373,7 @@ header ul li a {
 }
 
 .card-info:hover .mini-card{
-    transform: translateY(-1%);
+    transform: translateY(0%);
     opacity: 1;
 }
 
