@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Anek+Bangla:wght@300&family=Mukta:wght@500&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Ysabeau+Infant:ital@1&family=Ysabeau+Office:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Anek+Bangla:wght@300&family=Mukta:wght@500&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Ysabeau+Infant:ital@1&family=Ysabeau+Office:ital@1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -95,6 +99,7 @@ nav{
 .lang:hover{
     background: #000;
     color: #fff;
+    cursor: pointer;
     overflow: hidden;
 }
 
@@ -106,16 +111,21 @@ nav{
 
 .global-info h2,
 .information-four h1,
-.easy-text,
 .global-info img,
 .information-five p,
 .information-five h1,
 .cta,
 .global-info p {
     margin-left: 120px;
+
+}
+
+.information-four{
+    text-align: center;
 }
 
 .global-info h2 {
+    font-family: 'Borel', cursive;
     width: 40%;
     margin-top: 120px;
     color: #DF6951;
@@ -174,6 +184,7 @@ nav{
 }
 
 .information-two h2 {
+    font-family: 'Mukta', sans-serif;
     text-align: center;
     margin-bottom: 30px;
     color: #5E6282;
@@ -260,30 +271,28 @@ nav{
     margin-bottom: 60px;
 }
 
-.information-four h1 {
-    color: #14183E;
-    margin-bottom: 60px;
-}
-
 .easy-text {
     margin-bottom: 10px;
 }
 
 .cards {
-    width: 500px;
+    vertical-align: middle;
+    text-align: left;
     display: inline-block;
+    width: 500px;
 }
 
 .cards h1 {
-    position: absolute;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
     left: 0;
     color: #5E6282;
 }
 
 .cards p {
     color: #5E6282;
+    font-family: 'Ysabeau Office', sans-serif;
     padding-top: 40px;
-    padding-left: 15px;
 }
 
 .cards .content {
@@ -313,9 +322,10 @@ nav{
 }
 
 .card-info {
+    vertical-align: middle;
+    text-align: left;
     position: relative;
-    float: right;
-    margin-right: 160px;
+    display: inline-block;
     width: 370px;
     padding: 25px;
     font-size: 0;
