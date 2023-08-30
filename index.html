@@ -13,24 +13,25 @@
     <header>
         <div class="container">
             <img class="decore" src="decore.jpg" alt="">
-        <a href=""><img class="logo" src="logo.svg" alt=""></a>
-        <ul>
-            <li><a href="#">Description</a></li>
-            <li><a href="#">Hotels</a></li>
-            <li><a href="#">Flights</a></li>
-            <li><a href="#">Bookings</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a class="signup" href="#">Sign up</a></li>
-            <li class="smena-language"><a class="language" href="">EN <img class="vector-down" src="vector-down.png" alt=""></a>
-                <nav>
-                    <div class="lang">RU</div>
-                    <div class="lang">KZ</div>
-                    <div class="lang">US</div>
-                    <div class="lang">JP</div>
-                </nav>
-            </li>
-        </ul>
-    
+            <a href=""><img class="logo" src="logo.svg" alt=""></a>
+            <ul>
+                <li><a href="#">Description</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Bookings</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a class="signup" href="#">Sign up</a></li>
+                <li class="smena-language"><a class="language" href="">EN <img class="vector-down" src="vector-down.png"
+                            alt=""></a>
+                    <nav>
+                        <div class="lang">RU</div>
+                        <div class="lang">KZ</div>
+                        <div class="lang">US</div>
+                        <div class="lang">JP</div>
+                    </nav>
+                </li>
+            </ul>
+
         </div>
     </header>
     <main>
@@ -41,10 +42,13 @@
             <p>Built Wicket longer admire do barton vanity itself do in it. <br>
                 Preferred to sportsmen it engrossed listening. Park gate <br>
                 sell they west hard for the.</p>
-            <div class="cta">
+            <div class="cta" >
                 <a href="#/" class="cta-link">Find out more</a>
-                <img src="play-button.png" alt="">
-                <a href="#/" class="play-demo">Play Demo</a>
+                <img onclick="playVideo()" src="play-button.png" alt="">
+                <a href="#/" onclick="playVideo()" class="play-demo">Play Demo</a>
+                <div class="videoModal" onclick="closedModal()">
+                    <iframe id="playVideoYoutube" width="930" height="523" src="https://www.youtube.com/embed/sOKExVTO0S0" title="Бренд-тропики OneTwoTrip в Бертгольдт Центре Санкт-Петербурга" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
         <div class="information-two">
@@ -124,7 +128,7 @@
         </div>
 
         <div class="information-four">
-            
+
             <div class="cards">
                 <p class="easy-text">Easy and Fast</p>
                 <h1>Book Your Next Trip <br>
@@ -164,10 +168,10 @@
                 <div class="mini-card">
                     <img class="moscow" src="moscow.png" alt="">
                     <div class="mini-card-info">
-                    <p class="ongoin">Ongoing</p>
-                    <h3>Trip to rome</h3>
-                    <p class="completed">40% completed</p>
-                    <img class="poloska" src="poloska.png" alt="">
+                        <p class="ongoin">Ongoing</p>
+                        <h3>Trip to rome</h3>
+                        <p class="completed">40% completed</p>
+                        <img class="poloska" src="poloska.png" alt="">
 
                     </div>
                 </div>
@@ -176,12 +180,203 @@
 
         </div>
         <div class="information-five">
-            <p>TESTIMOALS</p>
-            <h1>What people say <br> about Us.</h1>
+            <div class="info-five-left">
+                <p>TESTIMONIALS</p>
+                <h1>What people say
+                    about Us.</h1>
+                <span class="activeComment"></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="info-five-right">
+                <div class="slider">
+                    <div id="slideOne" class="slide">
+                        <img class="imgChelovek" src="chelovek.png" alt="">
+                        <p class="descript">“On the Windows talking painted pasture yet its express parties use.
+                            Sure last upon he
+                            same
+                            as knew next. Of believed or diverted no.”</p>
+                        <h2 class="author">Mike taylor</h2>
+                        <p class="city">Lahore, Pakistan</p>
+                    </div>
+                    <div id="slideTwo" class="slide">
+                        <img class="imgChelovek" src="chelovek.png" alt="">
+                        <p class="descript">“Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+                            consequuntur qui repudiandae enim vitae aliquid iusto eligendi, odio ipsam, fugit in
+                            molestias velit quidem, similique reprehenderit numquam quis veniam fuga?”</p>
+                        <h2 class="author">Chris Thomas</h2>
+                        <p class="city">CEO of Red Button</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <svg class="strelkaUp" width="16" height="10" viewBox="0 0 16 10" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L8 8L15 1" stroke="#BCB7C2" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                    <svg class="strelkaDown" width="16" height="10" viewBox="0 0 16 10" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L8 8L15 1" stroke="#3E2E4D" stroke-width="2" stroke-linecap="round" />
+                    </svg>
 
+                </div>
+
+            </div>
         </div>
-    </main>
+        <div class="informationSix">
+            <img src="logos-partner.png" alt="">
+        </div>
 
+        <div class="informationSeven">
+            <div class="emailContainer">
+                <img class="telegram" src="tg.svg" alt="">
+                <img class="grugi1" src="grugi.svg" alt="">
+                <img class="grugi2" src="grugi2.png" alt="">
+                <div class="otzovik">
+                    <h1 class="sevenInfo">Subscribe to get information, latest news and other <br> interesting offers about Jadoo</h1>
+                    <input type="text" placeholder="✉️ Your Email"> <button>Subscribe</button>
+                </div>
+                <img class="sevenDecore" src="decore-group.png" alt="">
+            </div>
+        </div>
+
+        <div class="informationContact">
+            <div class="companyPost1">
+                <h1 class="nameCompany">Jadoo.</h1>
+                <p>Book your trip in minute, get full <br> Control for much longer.</p>
+            </div>
+            <div class="contactsPot">
+                <div class="company">
+                    <h3>Company</h3>
+                    <a href="#/"></a>
+                    <a href="#/"></a>
+                    <a href="#/"></a>
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <a href="#/"></a>
+                    <a href="#/"></a>
+                    <a href="#/"></a>
+                </div>
+                <div class="more">
+                    <h3>More</h3>
+                    <a href="#/"></a>
+                    <a href="#/"></a>
+                    <a href="#/"></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script>
+
+        let comments = [
+            {
+                img: "comments1.jpg",
+                desc: "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”",
+                author: "Mike taylor",
+                city: "Lahore, Pakistan",
+            },
+
+            {
+                img: "comments2.jpg",
+                desc: "“Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis consequuntur qui repudiandae enim vitae aliquid iusto eligendi, odio ipsam, fugit in molestias velit quidem, similique reprehenderit numquam quis veniam fuga?”",
+                author: "Chris Thomas",
+                city: "CEO of Red Button",
+            }
+
+        ]
+
+        let slideOne = document.getElementById("slideOne")
+        let slideTwo = document.getElementById("slideTwo")
+        let down = document.getElementsByClassName("strelkaDown")[0]
+        let up = document.getElementsByClassName("strelkaUp")[0]
+        let playYoutube = document.getElementById("playVideoYoutube")
+        let videoModal = document.getElementsByClassName("videoModal")[0]
+
+        let slides = document.getElementsByClassName("slide")
+
+        let counter = 0
+
+        function playVideo() {
+             
+            
+            videoModal.style.opacity = 1;
+            videoModal.style.pointerEvents = "auto";
+            playYoutube.style.transform = "translate(-50%, -50%) scale(1.2)";
+            
+
+            console.log("Просмотр видео ролика!")
+        }
+
+        function closedModal() {
+            videoModal.style.pointerEvents = "none";
+            videoModal.style.opacity = 0;
+        }
+
+        up.onclick = function () {
+            counter++
+            slideOne.style.opacity = 0;
+            setTimeout(function () {
+                slideTwo.style.transform = "translate(0, -50%)";
+                slideTwo.style.boxShadow = "0 10px 50px #00000044";
+                // slideTwo.style.border="none";
+                setTimeout(function () {
+
+                    for (let i = 0; i < 2; i++) {
+                        slides[i].children[0].src = comments[(counter + i) % 2].img
+                        slides[i].children[1].innerHTML = comments[(counter + i) % 2].desc
+                        slides[i].children[2].innerHTML = comments[(counter + i) % 2].author
+                        slides[i].children[3].innerHTML = comments[(counter + i) % 2].city
+                    }
+
+                    slideOne.style.transition = "0s";
+                    slideTwo.style.transition = "0s";
+                    slideOne.style.opacity = 1;
+                    slideTwo.style.opacity = 0;
+                    slideTwo.style.transform = "translate(40px, calc(-30% + 40px))"
+                    slideTwo.style.boxShadow = "none";
+                    // slideTwo.style.border="2px solid #F0F0F0";
+
+                    setTimeout(function () {
+                        slideOne.style.transition = "0.5s";
+                        slideTwo.style.transition = "0.5s";
+                        slideTwo.style.opacity = 1;
+
+                    }, 500)
+                }, 500)
+            }, 500)
+
+            console.log("Предыдущий коментарий")
+        };
+
+        down.onclick = function () {
+            slideTwo.style.opacity = 0;
+            setTimeout(function () {
+                slideOne.style.transform = "translate(0%, -50%)";
+                setTimeout(function () {
+                    for (let slide of slides) {
+                        slide.children[1].innerHTML = comments[counter].desc
+                        slide.children[2].innerHTML = comments[counter].author
+                        slide.children[3].innerHTML = comments[counter].city
+                    }
+                    slideTwo.style.transition = "0s";
+                    slideOne.style.transition = "0s";
+                    slideTwo.style.opacity = 1;
+                    slideOne.style.opacity = 0;
+                    slideOne.style.transform = "translate(40px, calc(-30% + 40px))"
+                    setTimeout(function () {
+                        slideTwo.style.transition = "0.5s";
+                        slideOne.style.transition = "0.5s";
+                        slideOne.style.opacity = 1;
+
+                    }, 500)
+                }, 500)
+            }, 500)
+
+            console.log("Следующий коментарий")
+        };
+
+    </script>
 </body>
 
 </html>
