@@ -42,12 +42,16 @@
             <p>Built Wicket longer admire do barton vanity itself do in it. <br>
                 Preferred to sportsmen it engrossed listening. Park gate <br>
                 sell they west hard for the.</p>
-            <div class="cta" >
+            <div class="cta">
                 <a href="#/" class="cta-link">Find out more</a>
                 <img onclick="playVideo()" src="play-button.png" alt="">
                 <a href="#/" onclick="playVideo()" class="play-demo">Play Demo</a>
                 <div class="videoModal" onclick="closedModal()">
-                    <iframe id="playVideoYoutube" width="930" height="523" src="https://www.youtube.com/embed/sOKExVTO0S0" title="Бренд-тропики OneTwoTrip в Бертгольдт Центре Санкт-Петербурга" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe id="playVideoYoutube" width="930" height="523"
+                        src="https://www.youtube.com/embed/sOKExVTO0S0"
+                        title="Бренд-тропики OneTwoTrip в Бертгольдт Центре Санкт-Петербурга" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -232,40 +236,50 @@
                 <img class="grugi1" src="grugi.svg" alt="">
                 <img class="grugi2" src="grugi2.png" alt="">
                 <div class="otzovik">
-                    <h1 class="sevenInfo">Subscribe to get information, latest news and other <br> interesting offers about Jadoo</h1>
+                    <h1 class="sevenInfo">Subscribe to get information, latest news and other <br> interesting offers
+                        about Jadoo</h1>
                     <input type="text" placeholder="✉️ Your Email"> <button>Subscribe</button>
                 </div>
                 <img class="sevenDecore" src="decore-group.png" alt="">
             </div>
         </div>
 
-        <div class="informationContact">
-            <div class="companyPost1">
-                <h1 class="nameCompany">Jadoo.</h1>
+        <div class="informationContacts">
+            <div class="post1">
+                <h1>Jadoo.</h1>
                 <p>Book your trip in minute, get full <br> Control for much longer.</p>
             </div>
-            <div class="contactsPot">
-                <div class="company">
-                    <h3>Company</h3>
-                    <a href="#/"></a>
-                    <a href="#/"></a>
-                    <a href="#/"></a>
-                </div>
-                <div class="contact">
-                    <h3>Contact</h3>
-                    <a href="#/"></a>
-                    <a href="#/"></a>
-                    <a href="#/"></a>
-                </div>
-                <div class="more">
-                    <h3>More</h3>
-                    <a href="#/"></a>
-                    <a href="#/"></a>
-                    <a href="#/"></a>
-                </div>
+            <div class="post2">
+                <h1>Company</h1>
+                <a href="#/">About</a>
+                <a href="#/">Careers</a>
+                <a href="#/">Mobile</a>
             </div>
-        </div>
 
+            <div class="post2">
+                <h1>Contact</h1>
+                <a href="#/">Help/FAQ</a>
+                <a href="#/">Press</a>
+                <a href="#/">Affilates</a>
+            </div>
+
+            <div class="post2">
+                <h1>More</h1>
+                <a href="#/">Airlinefees</a>
+                <a href="#/">Airline</a>
+                <a href="#/">Low fare tips</a>
+            </div>
+
+            <div class="links">
+                <img src="facebook.png" alt="">
+                <img src="inst.png" alt="">
+                <img src="twitter.png" alt="">
+                <p>Discover our app</p>
+                <img src="googlePlay.png" alt=""> <img src="playStore.png" alt="">
+            </div>
+
+
+        </div>
     </main>
     <script>
 
@@ -298,12 +312,12 @@
         let counter = 0
 
         function playVideo() {
-             
-            
+
+
             videoModal.style.opacity = 1;
             videoModal.style.pointerEvents = "auto";
             playYoutube.style.transform = "translate(-50%, -50%) scale(1.2)";
-            
+
 
             console.log("Просмотр видео ролика!")
         }

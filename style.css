@@ -679,20 +679,67 @@ nav {
     transform: scaleX(-100%);
     z-index: -14;
 }
-.informationContact{
-    position: relative;
-    margin-top: 30px;
+
+.informationContacts{
+    text-align: center;
     width: 80%;
     margin: auto;
-    height: 300px;
-    background: red;
+    /* background: aqua; */
 }
 
-.companyPost1{
-    padding: 30px;
+.posts{
+    transform: translateY(50%);
+    text-align: left;
 }
 
-.nameCompany{
-    font-weight: 600;
+.post1{
+    display: inline-block;
+    font-size: 16px;
+    /* background: gray; */
+}
+.post1 h1{
+    margin-bottom: 15px;
+}
+
+.informationContacts{
+    font-size: 0;
+}
+
+.informationContacts div{
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+}
+
+.post2{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    /* background: #159632; */
+}
+
+.post2 h1{
+    padding-bottom: 15px;
+}
+
+.post2 a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #5E6282;
+}
+.links{
+    position: absolute;
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+.links p{
+    color: #5E6282;
+    text-align: left;
     margin-bottom: 15px;
 }
