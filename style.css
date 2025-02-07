@@ -105,8 +105,14 @@ nav {
 
 .traveller {
     position: absolute;
-    bottom: 30px;
+    bottom: -60px;
     right: 160px;
+    width: 30%;
+}
+
+.global-info {
+    position: relative;
+    background-color: aqua;
 }
 
 .global-info h2,
